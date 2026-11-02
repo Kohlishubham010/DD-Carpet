@@ -1,0 +1,225 @@
+@media(max-width:500px){
+    .navbar-brand{
+        padding-left: 1px;
+    }
+}
+@media(max-width:500px){
+  .navbar>.container-fluid{
+      height: auto;
+    }
+}
+/* Media queries for different screen sizes */
+@media (max-width: 768px) {
+    .log1 {
+        flex-direction: column;
+        padding-top: 10px; /* Stack items vertically on small screens */
+    }
+
+
+    .log2 {
+        font-size: 14px; /* Adjust font size for smaller screens */
+        padding-right: 10px;
+    }
+
+    .logimg {
+        justify-content: center; /* Center the image on smaller screens */
+    }
+
+    .log3 {
+        flex-direction: column; /* Stack items vertically on small screens */
+        padding-top: 15px;
+    }
+
+    .log3 video {
+        width: 90%; /* Make video smaller on small screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .log2 {
+        font-size: 12px; /* Further reduce font size on very small screens */
+    }
+.log1 {
+        flex-direction: row;
+        padding-top: 10px; /* Stack items vertically on small screens */
+    }
+    .log3 video {
+        width: 100%; /* Allow video to take full width on very small screens */
+    }
+}
+@media (max-width: 768px) {
+    .log1 img {
+        width: 60px;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer{
+        width: 100%;
+         padding: 20px 20px;
+    }
+}
+@media (max-width: 500px) {
+    .footer{
+        width: 100%;
+        padding: 20px 20px;
+    }
+}
+@media (max-width: 768px) {
+    .joko{
+        padding: 40px;
+    }
+}
+@media (max-width: 500px) {
+    .joko{
+        padding: 10px;
+    }
+}
+@media (max-width: 500px) {
+    .ddblog{
+      width: 98%;
+      margin: auto;
+      padding-bottom: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .ddblog{
+      width: 95%;
+      margin: auto;
+      padding-bottom: 20px;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .col-lg-2 {
+    flex: 0 0 30%; /* On larger screens (1200px) the columns take up 30% width */
+    max-width: 30%;
+  }
+}
+
+@media (max-width: 992px) {
+  .col-md-4 {
+    flex: 0 0 45%; /* On medium screens (992px) the columns take up 45% width */
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-12 {
+    flex: 0 0 100%; /* On small screens (768px) the columns take up 100% width */
+    max-width: 100%;
+  }
+}
+
+/* Add some padding and margin for smaller devices */
+@media (max-width: 576px) {
+  .win1 i {
+    font-size: 40px; /* Reduce icon size on very small screens */
+  }
+
+  .win2 h4 {
+    font-size: 16px; /* Reduce text size on very small screens */
+  }
+}
+@media (max-width: 768px) {
+    .coverup{
+    padding-bottom: 80px;
+    padding-top: 40px;
+}
+}
+@media (max-width: 576px) {
+    .coverup{
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+}
+@media (max-width: 768px) {
+     .winic{
+    width: 70px;
+    height: auto;
+    gap: 20px;
+    padding-top: 20px;
+}
+}
+@media (max-width: 576px){
+    .winic{
+    width: 50px;
+    height: auto;
+   gap: 10px;
+   padding-top: 10px;
+   padding: 20px !important;
+   flex-direction: column;
+}}
+
+@media (max-width: 576px){
+    .car1 p{
+        padding: 1px;
+    }
+}
+@media (max-width: 576px){
+    .car1 ul{
+        padding: 1px;
+    }
+}
+
+@media (max-width: 576px){
+    .m1{
+    background-color: #fcebe1;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 0;
+}
+}
+@media (max-width: 576px){
+    .v1{
+    background-color: #fcebe1;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 1px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 0;
+}
+}
+@media (max-width: 576px){
+    .had{
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .fox{
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20PX;
+    margin: auto;
+    width: 90%;
+}
+}
+@media (max-width: 998px) {
+    .fox{
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20PX;
+    margin: auto;
+    width: 90% !important;
+}
+}
+@media (max-width: 576px){
+   .fox{
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10PX;
+    margin: auto;
+    width: 100%;
+} 
+}
